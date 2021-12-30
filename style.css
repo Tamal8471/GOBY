@@ -1,0 +1,695 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+.nav ul li h2{
+    color: black;
+    font-size: 31px;
+}
+.nav ul li a{
+    text-decoration: none;
+    position: relative;
+    left: 8%;
+    padding: 5px;
+    bottom: 28px;
+    font-size: 12px;
+    color: black;
+    font-family: fantasy;
+}
+.nav ul li a:hover{
+    color: rgb(81, 81, 245);
+}
+.nav1{
+    position: relative;
+    display: inline-block;
+    left: 80%;
+    bottom: 26px;
+}
+.nav{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 46px;
+    position: fixed;
+    z-index: 1;
+}
+.nav1 img{
+    position: relative;
+    bottom: 22px;
+    left: 20px;
+}
+.container img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.container h1{
+    position: relative;
+    bottom: 500px;
+    width: 28%;
+    left: 37%;
+    display: inline-block;
+    font-family: ui-serif;
+}
+.container input[type="button"]{
+
+ position: relative;
+ bottom: 436px;
+ border-radius: 6px;
+ left: 15%;
+ width: 10%;
+ height: 54px;
+ background-color: #eb0089;
+ color: white;
+}
+.container input[type="button"]:hover{
+    background-color:#b8066e ;
+}
+.ver{
+    position: relative;
+    bottom: 164px;
+    display: inline-block;
+    right: 18%;
+}
+.ver h5{
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    font-family: system-ui;
+}
+.ver h4{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.ver1{
+    position: relative;
+    bottom: 164px;
+    display: inline-block;
+    right: 13%;
+}
+.ver1 h5{
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    font-family: system-ui;
+}
+.ver1 h4{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.ver2{
+    position: relative;
+    bottom: 164px;
+    display: inline-block;
+    right: 8%;
+}
+.ver2 h4{
+    font-size: 30px;
+    font-family: fantasy;
+    position: relative;
+    right: 11%;
+}
+.ver2 p{
+    position: relative;
+    bottom: 16px;
+    font-size: 22px;
+    right: 10%;
+}
+.ver3{
+    position: relative;
+    bottom: 164px;
+    display: inline-block;
+    right: 5%;
+}
+.ver3 h5{
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    font-family: system-ui;
+}
+.ver3 h4{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.ver4{
+    position: relative;
+    bottom: 164px;
+    display: inline-block;
+}
+.ver4 h5{
+    padding: 2px;
+    font-size: 10px;
+    text-align: center;
+    font-family: system-ui;
+}
+.ver4 h4{
+    font-size: 20px;
+    font-family: fantasy;
+}
+.container1 img{
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    bottom: 98px;
+}
+.container2 img{
+    width: 100%;
+    position: relative;
+    bottom: 102px;
+    height: 620px;
+}
+.container2 h1{
+    display: inline-block;
+    position: relative;
+    left: 26%;
+    bottom: 508px;
+    font-family: fantasy;
+    font-size: 34px;
+}
+.container2 p{
+    display: inline-block;
+    position: relative;
+    left: 9%;
+    bottom: 476px;
+    font-size: 17px;
+}
+.container2 input[type="button"]{
+    position: relative;
+    bottom: 406px;
+    border-radius: 6px;
+    width: 10%;
+    height: 54px;
+    background-color: white;
+    color: black;
+    right: 7%;
+    border: 1px solid white;
+    font-family: cursive;
+}
+.container2 input[type="button"]:hover{
+    background-color:#253041 ;
+    color: white;
+}
+.container3 img{
+    position: relative;
+    left: 48%;
+    width: 5%;
+    bottom: 110px;
+    display: inline-block;
+}
+.container3 p{
+    width: 30%;
+    position: relative;
+    left: 38%;
+    bottom: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+.js{
+    background-color: #ededed;
+    border-radius: 106%;
+    color: black;
+    width: 22px;
+    position: relative;
+    left: 50%;
+    height: 22px;
+    text-align: center;
+    bottom: 67px;
+    font-size: 19px;
+    padding-top: 1px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.container3 h5{
+    position: relative;
+    left: 48%;
+    display: inline-block;
+    bottom: 60px;
+    cursor: pointer;
+}
+.container4{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 826px;
+}
+.container4 img{
+    width: 29%;
+    position: relative;
+    left: 15%;
+}
+.container4 h1{
+    width: 28%;
+    text-align: center;
+    position: relative;
+    left: 52%;
+    font-size: 30px;
+    bottom: 320px;
+}
+.container4 p{
+    width: 22%;
+    position: relative;
+    left: 55%;
+    bottom: 305px;
+    font-size: 19px;
+    text-align: center;
+}
+.container4 input[type="button"]{
+    position: relative;
+    bottom: 267px;
+    border-radius: 6px;
+    width: 10%;
+    height: 54px;
+    background-color: white;
+    color: black;
+    border: 3px solid #0f0f0f;
+    font-family: cursive;
+    left: 60%;
+}
+.container4 input[type="button"]:hover{
+    background-color:#253041 ;
+    color: white;
+}
+.box{
+    background-color: white;
+    width: 63%;
+    height: 328px;
+    position: relative;
+    left: 18%;
+    bottom: 217px;
+}
+.box1 ul li img{
+    width: 10%;
+    position: relative;
+    top: 59px;
+}
+.box1 ul li h2{
+    position: relative;
+    left: 2%;
+    top: 110px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.box1 ul li p{
+    position: relative;
+    top: 135px;
+    left: 96px;
+}
+.box2 ul li img{
+    width: 10%;
+    position: relative;
+    left: 45%;
+    bottom: 82px;
+}
+.box2 ul li h2{
+    position: relative;
+    left: 34%;
+    bottom: 35px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.box2 ul li p{
+    position: relative;
+    top: 27px;
+    left: 20%;
+    display: inline-block;
+    width: 18%;
+}
+.box3 ul li img{
+    width: 10%;
+    position: relative;
+    left: 76%;
+    bottom: 184px;
+}
+.box3 ul li h2{
+    position: relative;
+    left: 61%;
+    bottom: 136px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.box3 ul li p{
+    width: 24%;
+    position: relative;
+    top: -74px;
+    left: 38%;
+}
+.contain h2{
+    position: relative;
+    left: 33%;
+    font-size: 26px;
+    display: inline-block;
+    bottom: 90px;
+    font-family: sans-serif;
+}
+.ri ul li img{
+    width: 6%;
+    position: relative;
+    left: 16%;
+}
+.ri ul li h5{
+    position: relative;
+    left: 8%;
+    display: inline-block;
+    top: 22px;
+    font-family: cursive;
+}
+.ri ul li p{
+    position: relative;
+    top: 47px;
+    left: 10%;
+    width: 19%;
+}
+.ri1 ul li img{
+    width: 6%;
+    position: relative;
+    left: 38%;
+    bottom: 157px;
+}
+.ri1 ul li h5{
+    position: relative;
+    left: 32%;
+    display: inline-block;
+    bottom: 139px;
+    font-family: cursive;
+}
+.ri1 ul li p{
+    position: relative;
+    left: 22%;
+    width: 15%;
+    display: inline-block;
+    bottom: 52px;
+}
+.ri2 ul li img{
+    width: 6%;
+    position: relative;
+    left: 58%;
+    bottom: 256px;
+    display:inline-block;
+}
+.ri2 ul li h5{
+    position: relative;
+    left: 51%;
+    display: inline-block;
+    bottom: 234px;
+    font-family: cursive;
+}
+.ri2 ul li p{
+    position: relative;
+    left: 40%;
+    width: 16%;
+    display: inline-block;
+    bottom: 156px;
+}
+.ri3 ul li img{
+    width: 6%;
+    position: relative;
+    left: 78%;
+    bottom: 358px;
+    display:inline-block;
+}
+.ri3 ul li h5{
+    position: relative;
+    left: 70%;
+    display: inline-block;
+    bottom: 334px;
+    font-family: cursive;
+}
+.ri3 ul li p{
+    position: relative;
+    left: 56%;
+    width: 16%;
+    display: inline-block;
+    bottom: 230px;
+}
+.contain1{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 640px;
+    position: relative;
+    bottom: 230px;
+}
+.contain1 img{
+    position: relative;
+    left: 0%;
+    top: 24%;
+}
+.testi img{
+    position: relative;
+    left: 71%;
+    bottom: 140px;
+}
+.contain1 h2{
+    color: black;
+    position: relative;
+    left: 9%;
+    display: inline-block;
+    bottom: 185px;
+    font-size: 32px;
+}
+.st p{
+    position: relative;
+    left: 30%;
+    font-size: 14px;
+    bottom: 408px;
+    font-family: fantasy;
+}
+.st hr{
+    width: 11%;
+    position: relative;
+    left: 35%;
+    bottom: 392px;
+    border: 1px solid blue;
+}
+.st1 p{
+    position: relative;
+    left: 41%;
+    font-size: 14px;
+    bottom: 430px;
+    font-family: fantasy;
+}
+.st1 hr{
+    width: 11%;
+    position: relative;
+    left: 46%;
+    bottom: 411px;
+}
+.contain1 .st2{
+    width: 34%;
+    position: relative;
+    left: 31%;
+    bottom: 57%;
+}
+.contain1 .st3{
+    display: inline-block;
+    position: relative;
+    left: 41%;
+    bottom: 313px;
+}
+.st4 li img{
+    width: 2%;
+    border-radius: 20px;
+    position: relative;
+    left: 46%;
+    bottom: 245px;
+}
+.contain1 input[type="button"]{
+    position: relative;
+    bottom: 215px;
+    border-radius: 6px;
+    width: 14%;
+    height: 54px;
+    background-color: #F7F7F7;
+    color: black;
+    border: 2px solid #0f0f0f;
+    font-family: cursive;
+    left: 42%;
+}
+.contain1 input[type="button"]:hover{
+    background-color:#253041 ;
+    color: white;
+}
+.contain2 ul li{
+    display: inline-block;
+    position: relative;
+    left: 22%;
+    font-size: 15px;
+    bottom: 191px;
+    font-family: cursive;
+}
+.contain2 ul li hr{
+    position: relative;
+    border: 1px solid black;
+    width: 245px;
+    right: 83%;
+    top: 28px;
+}
+.st5 {
+    position: relative;
+    left: 43%;
+    display: inline;
+    bottom: 213px;
+    color: #b4aeae;
+    font-size: 23px;
+}
+.st6 {
+    width: 9%;
+    position: relative;
+    left: 66%;
+    bottom: 248px;
+    font-size: 21px;
+    color: #b4aeae;
+}
+.st7{
+    width: 42%;
+    position: relative;
+    left: 36.05%;
+    bottom: 243px;
+}
+.tab{
+    position: relative;
+    left: 46%;
+    display: inline-block;
+    bottom: 160px;
+    font-size: 13px;
+    font-family: fantasy;
+}
+.tab1{
+    width: 20%;
+    text-align: center;
+    position: relative;
+    left: 39%;
+    bottom: 152px;
+}
+.tab2{
+    width: 100%;
+    background-color: #4c80fa;
+    height: 275px;
+    position: relative;
+    bottom: 56px;
+}
+.tab2 h1{
+    position: relative;
+    top: 74px;
+    width: 52%;
+    display: inline-block;
+    left: 24%;
+    color: white;
+    font-size: 25px;
+    font-family: system-ui;
+}
+.tab2 input[type="button"]{
+    position: relative;
+    top: 152px;
+    border-radius: 6px;
+    width: 12%;
+    height: 54px;
+    background-color: #F7F7F7;
+    color: black;
+    border: 2px solid #0f0f0f;
+    font-family: cursive;
+    left: -155px;
+    display: inline-block;
+}
+.tab2 input[type="button"]:hover{
+    background-color:#253041 ;
+    color: white;
+}
+.f1 img{
+    width: 3%;
+    display: inline-block;
+    position: relative;
+    left: 196px;
+    bottom: 18px;
+}
+.f2{
+    position: relative;
+    left: 21%;
+    display: inline-block;
+    bottom: 64px;
+    font-family: fantasy;
+}
+.f3 p{
+    position: relative;
+    left: 20.5%;
+    bottom: 61px;
+    font-size: 13px;
+    padding: 4px;
+    text-align: left;
+}
+.f4{
+    position: relative;
+    left: 38%;
+    display: inline-block;
+    bottom: 201px;
+    font-family: fantasy;
+}
+.f5 p{
+    position: relative;
+    left: 572PX;
+    bottom: 199px;
+    font-size: 13px;
+    padding: 4px;
+    text-align: left;
+}
+.f6{
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    bottom: 338px;
+    font-family: fantasy;
+}
+.f7 p{
+    position: relative;
+    left: 755PX;
+    bottom: 332px;
+    font-size: 13px;
+    padding: 4px;
+    text-align: left;
+}
+.data h4{
+    display: inline-block;
+    position: relative;
+    left: 66%;
+    bottom: 434px;
+    font-size: 12px;
+}
+.data1 input[type="EMAIL"]{
+    position: relative;
+    left: 66%;
+    bottom: 418px;
+    width: 21%;
+    height: 45px;
+    font-size: 17px;
+    font-family: monospace;
+    color: #c2bebe;
+}
+.data2{
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    left: 21%;
+    font-size: 11px;
+    font-family: ui-monospace;
+    color: #c2bebe;
+}
+.data3{
+    position: relative;
+    bottom: 199px;
+    display: inline-block;
+    left: 54%;
+    font-size: 11px;
+    color: #c2bebe;
+}
+.data4 li img{
+    width: 2%;
+    position: relative;
+    left: 72%;
+    bottom: 241px;
+    padding: 16px;
+    border: 1px solid #d2cfcf;
+    border-radius: 41px;
+}
+.data4 li img:hover{
+    background-color:#d2cfcf ;
+}
